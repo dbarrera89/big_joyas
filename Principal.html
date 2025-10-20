@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Joyas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="principa.css">
+</head>
+<body>
+    <header>
+      <!--logo-->  <div class="logo-wrapper">
+            <img src="Logotipo BIG JOYAS .png" alt="Logo Big Joyas">
+    
+       <button id="hamburger"><i class="fas fa-bars"></i></button>
+  </header>
+
+
+   <!-- MENU -->
+
+
+    <nav id="overlay-menu">
+        <button id="close-menu"><i class="fas fa-times"></i></button>
+        <div class="mega-menu"> <!--cierre del menú-->
+
+            <div class="login-menu"> <!--opcion: Iniciar sesion-->
+  <a href="/usuario/login.html" id="login">
+    <i class="fas fa-user-large"></i> Iniciar Sesión
+  </a>
+</div>
+            <div class="mega-column">
+                <h3>Joyas</h3>
+                <ul>
+                    <li><a href="/secciones/anillos.html"><i class=""></i> Anillos</a></li>
+                    <li><a href="/secciones/aretes.html"><i class=""></i> Aretes</a></li>
+                    <li><a href="/secciones/pulseras.html"><i class=""></i> Pulseras</a></li>
+                    <li><a href="/secciones/collares.html"><i class=""></i> Collares</a></li>
+                    <li><a href="/secciones/relojeria.html"><i class=""></i> Relojería</a></li>
+                </ul>
+                <div class="image-carousel">
+                    <div class="carousel-container" data-carousel="joyas">
+                        <div class="carousel-slide">
+                            <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=300&fit=crop" alt="Anillo elegante">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=400&h=300&fit=crop" alt="Aretes dorados">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="https://images.unsplash.com/photo-1589674781759-c21c37956a44?w=400&h=300&fit=crop" alt="Pulsera de oro">
+                        </div>
+                    </div>
+                    <div class="carousel-controls">
+                        <div class="carousel-dot active" data-slide="0"></div>
+                        <div class="carousel-dot" data-slide="1"></div>
+                        <div class="carousel-dot" data-slide="2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mega-column">
+                <h3>Metales</h3>
+                <ul>
+                    <li><a href="#"><i class=""></i> Oro 18K</a></li>
+                    <li><a href="#"><i class=""></i> Oro Blanco</a></li>
+                    <li><a href="#"><i class=""></i> Plata 925</a></li>
+                </ul>
+                <div class="image-carousel">
+                    <div class="carousel-container" data-carousel="metales">
+                        <div class="carousel-slide">
+                            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=300&fit=crop" alt="Oro 18K">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=300&fit=crop" alt="Oro Blanco">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=300&fit=crop" alt="Plata 925">
+                        </div>
+                    </div>
+                    <div class="carousel-controls">
+                        <div class="carousel-dot active" data-slide="0"></div>
+                        <div class="carousel-dot" data-slide="1"></div>
+                        <div class="carousel-dot" data-slide="2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mega-column">
+                <h3>Colección</h3>
+                <ul>
+                    <li><a href="#"><i class=""></i> Edición Limitada</a></li>
+                    <li><a href="#"><i class=""></i> Nuevos Lanzamientos</a></li>
+                    <li><a href="#"><i class=""></i> Regalos</a></li>
+                </ul>
+                <div class="image-carousel">
+                    <div class="carousel-container" data-carousel="coleccion">
+                        <div class="carousel-slide">
+                            <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=400&h=300&fit=crop" alt="Edición Limitada">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=400&h=300&fit=crop" alt="Nuevos Lanzamientos">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=400&h=300&fit=crop" alt="Regalos">
+                        </div>
+                    </div>
+                    <div class="carousel-controls">
+                        <div class="carousel-dot active" data-slide="0"></div>
+                        <div class="carousel-dot" data-slide="1"></div>
+                        <div class="carousel-dot" data-slide="2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+  <!--Vídeo de la pagina principal-->
+   <section class="hero-section">
+    <!-- Video -->
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="7663572-hd_1920_1080_25fps.mp4" type="video/mp4">
+      Tu navegador no soporta video.
+    </video>
+
+    <!-- Contenido -->
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1 class="hero-title">Bienvenidos </h1>
+        <p class="hero-subtitle">Elige que joya contara una historia</p>
+        <a href="anillo.html" class="hero-cta">tienda</a>
+      </div>
+    </div>
+    </section>
+ 
+ 
+ <!--Carrusel de la pagina principal-->
+ <section class="carrusel">
+
+     <div class="slider"> 
+
+<!--Imagenes-->
+        <div class="list">
+
+            <div class="item">
+                <img src="imagen2.png" alt="">
+
+                <div class="content">
+                    <div class="title"></div>
+                    <div class="type">Real </div>
+                    <div class="description">
+                        Un destello único de elegancia inspirado en los tonos profundos del cielo nocturno. Cada joya refleja la magia del resplandor morado, un lujo que envuelve y seduce con su misterio.
+                    </div>
+                    <div class="button">
+                        <button>Ir a la tienda </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="imagen1.png" alt="">
+
+                <div class="content">
+                    <div class="title"></div>
+                    <div class="type">PED</div>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut.
+                    </div>
+                    <div class="button">
+                        <button>Ir a la tienda </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="imagen3.png" alt="">
+
+                <div class="content">
+                    <div class="title"></div>
+                    <div class="type">PLANT</div>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti temporibus quis eum consequuntur voluptate quae doloribus distinctio. Possimus, sed recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, aut.
+                    </div>
+                    <div class="button">
+                        <button>Ir a la tienda </button>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+
+<!--fotos miniatura del carrusel!-->
+        <div class="thumbnail">
+
+            <div class="item">
+                <img src="imagen2.png" alt="">
+            </div>
+            <div class="item">
+                <img src="/imagen1.png" alt="">
+            </div>
+            <div class="item">
+                <img src="/imagen3.png" alt="">
+            </div>
+           
+
+        </div>
+
+<!-- botones para cambiar de imagen!-->
+        <div class="nextPrevArrows">
+            <button class="prev"> < </button>
+            <button class="next"> > </button>
+        </div>
+
+
+    </div>
+</section>
+
+
+<!--Galería-->
+
+
+
+<section class="galeria-anillos">
+<div class="contenedor-galeria">
+
+    <H1> Nuestros productos </H1>
+    
+   
+<!-- Producto 1 -->
+<div class="producto">
+<div class="imagen-contenedor">
+<img src="Galeria 1.jpg" alt="Aretes">
+</div>
+<div class="info-producto">
+<h3>ARETES</h3>
+<p>En Big Joyas encontrarás aretes diseñados para realzar tu esencia.
+Cada pieza refleja elegancia, brillo y una historia que te acompaña en cada movimiento</p>
+</div>
+</div>
+
+
+<!-- Producto 2 -->
+<div class="producto">
+<div class="imagen-contenedor">
+<img src="Galeria 2.jpg" alt="reloj">
+</div>
+<div class="info-producto">
+<h3>RELOJ</h3>
+<p>En Big Joyas, cada reloj es más que un accesorio:
+es una declaración de estilo, precisión y distinción que trasciende el tiempo..</p>
+</div>
+</div>
+
+
+<!-- Producto 3 -->
+<div class="producto">
+<div class="imagen-contenedor">
+<img src="Galeria 4.jpg" alt="Anillo">
+</div>
+<div class="info-producto">
+<h3>ANILLO</h3>
+<p>Inspirado en la calidez del amanecer, elaborado en oro rosado.</p>
+</div>
+</div>
+
+
+<!-- Producto 4 -->
+<div class="producto">
+<div class="imagen-contenedor">
+<img src="Galeria 5.jpg" alt="Collar">
+</div>
+<div class="info-producto">
+<h3>COLLAR</h3>
+<p>En Big Joyas descubrirás anillos creados para simbolizar momentos eternos.
+Diseños únicos que capturan la promesa, el amor y la belleza en su forma más pura.</p>
+</div>
+</div>
+</div>
+</section>
+    
+
+
+
+ 
+
+
+
+
+    <footer>
+        <section id="foto">
+            <div class="foto">
+                <img src="img/pexels-jesus-martin-tauca-solorzano-583622238-17043996.jpg" alt="Joya 1">
+                <img src="img/woman-7077349_1280.jpg" alt="Joya 2">
+                <img src="img/gift-of-jewelry-3511783_1280.jpg" alt="Joya 3">
+                <img src="img/woman-7774485_1280.jpg" alt="Joya 4">
+                <img src="img/woman-8008498_1280.jpg" alt="Joya 5">
+                <img src="img/woman-8255881_1280.jpg" alt="Joya 6">
+                <img src="img/pexels-rajeshverma-8234808.jpg" alt="Joya 7">
+                <img src="img/retrato-vintage-en-blanco-y-negro.jpg" alt="Joya 8">
+            </div>
+        </section>
+
+        <footer class="footer">
+  <div class="footer-columns">
+    <div class="footer-column">
+     <div class="h11">
+         <h1>Informacion</h1>
+    </div>
+      <ul>
+        <li><a href="#">Guía de tallas</a></li>
+        <li><a href="#">Localizador de tiendas</a></li>
+        <li><a href="#">Mapa del sitio</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+     <div class="h11">
+       <h1>Informacion de contacto</h1>
+    </div>
+      <ul>
+       
+        <li><a href="#">Política de privacidad</a></li>
+        <li><a href="#">Política de cookies</a></li>
+        <li><a href="#">Aviso legal</a></li>
+        <li><a href="#">Productos falsificados</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <div class="h11">
+         <h1>Informacion</h1>
+    </div>
+      <ul>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Sobre nosotros</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-logo">
+    <img src="Logotipo Elegante BIG JOYAS.png" alt="Big Joyas Logo">
+  </div>
+
+  <div class="footer-social">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-tiktok"></i></a>
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+  </div>
+
+  <p class="footer-copy">© 2025 BIG JOYAS. Todos los derechos reservados.</p>
+</footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+          
+    
+</body>
+</html>
